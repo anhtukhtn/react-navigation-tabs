@@ -54,7 +54,7 @@ class TouchableWithoutFeedbackWrapper extends React.Component<*> {
 
     return (
       <TouchableWithoutFeedback
-        onPress={onPress}
+        onPressIn={onPress}
         testID={testID}
         accessibilityLabel={accessibilityLabel}
       >
